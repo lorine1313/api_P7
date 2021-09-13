@@ -18,7 +18,7 @@ from sklearn.neighbors import KDTree
 app = Flask(__name__)
 
 # Chargement du df
-df = pd.read_csv("appli_train_3.csv", index_col="SK_ID_CURR")
+df = pd.read_csv("appli_train_3_0.csv", index_col="SK_ID_CURR")
 df = df.drop("TARGET", axis=1)
 # print(df.head(5))
 # print(df.columns)
